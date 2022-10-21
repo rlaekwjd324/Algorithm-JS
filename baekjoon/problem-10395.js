@@ -8,5 +8,9 @@ for (let i = 0; i < 5; i++) {
         console.log('N');
         return;
     }
+    if (firstLine[i] === '1' && secondLine[i] === '1') {
+        console.log('N');
+        return;
+    }
 }
 console.log('Y');
