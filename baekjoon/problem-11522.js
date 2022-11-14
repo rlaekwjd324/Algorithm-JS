@@ -17,7 +17,6 @@
 // }
 // console.log(answer.trim());
 
-// 예제 입력이 여러줄로 되어 있을 떼
 const readline = require('readline');
 
 const rl = readline.createInterface({
