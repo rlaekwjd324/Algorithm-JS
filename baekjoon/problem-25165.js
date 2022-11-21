@@ -1,0 +1,9 @@
+let fs = require('fs');
+// let input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
+let input = fs.readFileSync('test.txt').toString().trim().split('\n');
+let n = parseInt(input[0].split(' ')[0]);
+let m = parseInt(input[0].split(' ')[1]);
+let a = parseInt(input[1].split(' ')[0]);
+let d = parseInt(input[1].split(' ')[1]);
+let sr = parseInt(input[2].split(' ')[0]);
+let sc = parseInt(input[2].split(' ')[1]);
