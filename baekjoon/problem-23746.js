@@ -14,4 +14,4 @@ let preWord = ''
 for (let i = 0; i < word.length; i++) {
   preWord += keys[values.indexOf(word[i])]
 }
-console.log(preWord.substring(parseInt(input[n + 2].split(' ')[0])-1, parseInt(input[n + 2].split(' ')[1])))
+console.log(preWord.substring(parseInt(input[n + 2].split(' ')[0]) - 1, parseInt(input[n + 2].split(' ')[1])))

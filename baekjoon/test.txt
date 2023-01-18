@@ -1,6 +1,7 @@
+2
+5
+abadd
+abada
 3
-aa A
-bba B
-c C
-ABAC
-4 6
+cba
+abc
