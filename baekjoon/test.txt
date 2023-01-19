@@ -1,7 +1,4 @@
-2
-5
-abadd
-abada
 3
-cba
-abc
+31 3
+20 6
+14 2
