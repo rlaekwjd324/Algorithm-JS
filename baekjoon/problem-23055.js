@@ -4,16 +4,21 @@ let input = fs.readFileSync('test.txt').toString().trim().split('\n')
 let n = parseInt(input[0])
 let answer = ''
 for (let i = 0; i < n; i++) {
+  if (i === 0 || i === n - 1) {
+    answer += ('*'.repeat(n) + '\n')
+    continue
+  }
   for (let j = 0; j < n; j++) {
-    if (i === 0 || i === n - 1 || j === 0 || j === n - 1) {
+    if (j === 0 || j === n - 1) {
       answer += '*'
-      if (i === n - 1) {
-        answer += '\n'
-      }
       continue
     }
-    if (i < parseInt(n / 2)) {
+    if (i === j || i === n - j - 1) {
+      answer += '*'
+      continue
     }
     answer += ' '
   }
+  answer += '\n'
 }
+console.log(answer)
