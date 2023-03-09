@@ -1,11 +1,5 @@
-5
-Tyler
-Lopez
-Alexandra
-Johnson
-Martin
-Young
-Sabrina
-Chao
-Arjun
-Gupta
+#.# ... ... #..
+#.# ... ... #..
+#.# ### ### ###
+#.# #.. ..# ..#
+### ### ### ..#
