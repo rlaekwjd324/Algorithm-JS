@@ -1,1 +1,4 @@
-This is a piece of sample text for the New Zealand Programming Contest 2017. Plot a graph to show its letter frequency.
+Es 20
+Stair 15
+Stair 15
+Stair 15
