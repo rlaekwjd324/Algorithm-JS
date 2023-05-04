@@ -1,4 +1,3 @@
-Es 20
-Stair 15
-Stair 15
-Stair 15
+7
+CCCCCCC
+C.C.C.C
