@@ -1,2 +1,5 @@
-23 48
-25
+4
+DOG
+GOD
+GOOD
+DOLL
