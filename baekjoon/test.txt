@@ -1,5 +1,1 @@
-4
-DOG
-GOD
-GOOD
-DOLL
+0/0/1
