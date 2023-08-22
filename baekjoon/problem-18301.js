@@ -1,0 +1,8 @@
+let fs = require('fs')
+// let input = fs.readFileSync('/dev/stdin').toString().trim().split('\n')
+let input = fs.readFileSync('test.txt').toString().trim().split('\n')
+let n1 = parseInt(input[0].split(' ')[0])
+let n2 = parseInt(input[0].split(' ')[1])
+let n12 = parseInt(input[0].split(' ')[2])
+let n = Math.abs((n1 + 1) * (n2 + 1) / (n12 + 1) - 1)
+console.log(Math.floor(n))
