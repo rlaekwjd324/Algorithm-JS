@@ -14,9 +14,11 @@ while(Math.pow(a, tempA) < nFac) {
 }
 console.log(k)
 function getFac (num) {
-  let temp = 1
-  for (let i = 2; i <= num; i++) {
-    temp *= i
+  let count = 0
+  for (let i = a; i <= num; i++) {
+    if(i%a === 0) {
+      
+    }
   }
   return temp
 }
