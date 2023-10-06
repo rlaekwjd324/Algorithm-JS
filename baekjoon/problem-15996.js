@@ -16,8 +16,7 @@ console.log(k)
 function getFac (num) {
   let count = 0
   for (let i = a; i <= num; i++) {
-    if(i%a === 0) {
-      
+    if (i % a === 0) {
     }
   }
   return temp
