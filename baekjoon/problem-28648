@@ -1,0 +1,10 @@
+let fs = require('fs')
+let input = fs.readFileSync('/dev/stdin').toString().trim().split('\n')
+let n = Number(input[0])
+let min = 100000000
+for (let i=0; i<n; i++) {
+  let a = Number(input[i].split(' ')[0])
+  let b = Number(input[i].split(' ')[1])
+  min = Math.min(min, a+b)
+}
+console.log(min)
