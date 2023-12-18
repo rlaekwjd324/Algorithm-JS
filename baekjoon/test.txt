@@ -1,8 +1,3 @@
-rrrrrrrr
-rrrrrrrr
-rrrrrrrr
-rrrrrrrr
-rrrrrrrr
-rrrrrrrr
-rrrrrrrr
-rrrrrrrr
+3 10
+4 2 2
+6 4 2
