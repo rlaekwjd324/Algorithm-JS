@@ -1,7 +1,3 @@
-3
-2
-Easy
-Smart
-Soft
-pie
-rock
+23
+3 1 4 1 5 9
+5 7
