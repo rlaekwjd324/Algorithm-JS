@@ -1,0 +1,13 @@
+let fs = require('fs')
+let input = fs.readFileSync('/dev/stdin').toString().trim().split('\n')
+let n = Number(input[0])
+let answer = ''
+for (let i=1; i<=n; i++) {
+  let temp = Number(input[i])
+  if((temp+1) % (temp%100) === 0) {
+    answer += ('Good\n')
+  } else {
+    answer += ('Bye\n')
+  }
+}
+console.log(answer)
