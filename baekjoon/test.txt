@@ -1,5 +1,2 @@
-4
-Poblano
-Cayenne
-Thai
-Poblano
+26
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
