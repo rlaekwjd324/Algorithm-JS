@@ -1,7 +1,2 @@
-Saskatoon -20
-Toronto -2
-Winnipeg -40
-Vancouver 8
-Halifax 0
-Montreal -4
-Waterloo -3
+11
+joinojoijin
