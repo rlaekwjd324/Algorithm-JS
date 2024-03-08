@@ -1,6 +1,3 @@
 5
-changwon 100
-incheon 70
-jinju 90
-haenam 530
-gangneung 660
+I A I S S
+A
