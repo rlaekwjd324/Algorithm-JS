@@ -10,3 +10,13 @@ for (let i = 1; i < word.length; i++) {
   answer += word[i]
 }
 console.log(answer)
+// python code
+// s = input()
+// res, temp = "", ""
+
+// for w in s:
+//     if temp != w:
+//         temp = w
+//         res += w
+
+// print(res)
