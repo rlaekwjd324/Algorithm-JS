@@ -1,7 +1,6 @@
-N
-5
+X
+4
+A X
+B X
+X A
 D A
-N B
-B A
-C D
-F A
