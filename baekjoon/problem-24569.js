@@ -6,7 +6,7 @@ let count = 0
 for (let i = 0; i < n; i++) {
   let d = Number(input[i * 2 + 1])
   let s = Number(input[i * 2 + 2])
-  if (d * 5 - s * 3 >= 40) {
+  if ((d * 5 - s * 3) > 40) {
     count++
   }
 }
