@@ -5,6 +5,7 @@ let n = Number(input[0])
 let chocolates = input[1].split(' ')
 let pre = Number(chocolates[0])
 let count = 0
+
 for (let i = 1; i < n; i++) {
   let num = Number(chocolates[i])
   if (pre < num) {
