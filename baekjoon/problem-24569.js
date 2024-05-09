@@ -14,4 +14,5 @@ let answer = count
 if (count === n) {
   answer += '+'
 }
+
 console.log(answer)
