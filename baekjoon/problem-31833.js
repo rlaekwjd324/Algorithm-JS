@@ -1,6 +1,5 @@
 let fs = require('fs')
-// let input = fs.readFileSync('/dev/stdin').toString().trim().split('\n')
-let input = fs.readFileSync('test.txt').toString().trim().split('\n')
+let input = fs.readFileSync('/dev/stdin').toString().trim().split('\n')
 let num1 = BigInt(input[1].split(' ').join(''))
 let num2 = BigInt(input[2].split(' ').join(''))
 if(num1>num2) return console.log(num2.toString())
