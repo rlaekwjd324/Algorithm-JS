@@ -1,0 +1,6 @@
+let fs = require('fs')
+// let input = fs.readFileSync('/dev/stdin').toString().trim().split('\n')
+let input = fs.readFileSync('test.txt').toString().trim().split('\n')
+let n = Number(input[0].split(' ')[0])
+let k = Number(input[0].split(' ')[1])
+console.log(Math.floor(k / Math.pow(2, n - 1)))
