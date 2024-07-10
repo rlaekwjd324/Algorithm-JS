@@ -1,0 +1,7 @@
+let fs = require('fs')
+// let input = fs.readFileSync('/dev/stdin').toString().trim().split('\n')
+let input = fs.readFileSync('test.txt').toString().trim().split('\n')
+let r = Number(input[0].split(' ')[0])
+let c = Number(input[0].split(' ')[1])
+let n = Number(input[0].split(' ')[2])
+console.log(Math.ceil(r / n) * Math.ceil(c / n))
